@@ -18,3 +18,15 @@ death-message: "&7[&cQuake&7]&a%player &ewas gibbed by &a%killer!"
 #Commands to run on the winner
 winner-commands:
   -give %player 264 64
+  
+#The minimum amount of players to start the game
+min-players: 3
+
+#The maximum amount of players in a match
+max-players: 15
+
+#The amount of time that the game will wait before starting (After the min. amount of players joins)
+wait-time: 30
+
+#The amount of time that the game lasts
+game-time: 90
