@@ -1,0 +1,20 @@
+#Quake Configuration. NOT DONE YET!
+
+#The world where the game will take place
+quakeworld: Quake
+
+#The starting area where players will spawn and respawn. Set this to something other than 0, 0, 0!
+startarea:
+  start-X: 0
+  start-Y: 0
+  start-Z: 0
+  
+#Use fireworks when players die and on the winning player
+use-fireworks: false
+
+#The message to show on death. Let %player represent the killed player, and let %killer represent the killer.
+death-message: "&7[&cQuake&7]&a%player &ewas gibbed by &a%killer!"
+
+#Commands to run on the winner
+winner-commands:
+  -give %player 264 64
